@@ -28,6 +28,10 @@ def verVencerdor(str):
             print("\n\t\033[4;34;40mX VENCEU\033[m")
             print("\n\n------ FIM DE JOGO ------\n\n")
             exit()
+        elif d == 'X' and e == 'X' and f == 'X':
+            print("\n\t\033[4;34;40mX VENCEU\033[m")
+            print("\n\n------ FIM DE JOGO ------\n\n")
+            exit()
         elif a == 'X' and d == 'X' and g == 'X':
             print("\n\t\033[4;34;40mX VENCEU\033[m")
             print("\n\n------ FIM DE JOGO ------\n\n")
@@ -49,6 +53,10 @@ def verVencerdor(str):
             print("\n\n------ FIM DE JOGO ------\n\n")
             exit()
         elif a == 'O' and b == 'O' and c == 'O':
+            print("\n\t\033[4;33;40mO VENCEU\033[m")
+            print("\n\n------ FIM DE JOGO ------\n\n")
+            exit()
+        elif d == 'O' and e == 'O' and f == 'O':
             print("\n\t\033[4;33;40mO VENCEU\033[m")
             print("\n\n------ FIM DE JOGO ------\n\n")
             exit()
