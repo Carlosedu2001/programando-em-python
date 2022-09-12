@@ -79,6 +79,12 @@ while contador < 10 and num != 0:
     verVencerdor(jogoDaVelha)
     
     num = int(input("\nDigite um número de 1 a 9: "))
+
+    if num == 0:
+        os.system("cls")
+        print("\n\033[4;31;40mJogo finalizado com sucesso\033[m\n")
+        exit()
+
     os.system("cls")
     if num == 1 and vez == 0 and a == '\033[0;30;40m1\033[m':
         a = 'X'
