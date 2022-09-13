@@ -44,6 +44,10 @@ def verVencerdor(str):
             print("\n\t\033[4;34;40mX VENCEU\033[m")
             print("\n\n------ FIM DE JOGO ------\n\n")
             exit()
+        elif b == 'X' and e == 'X' and h == 'X':
+            print("\n\t\033[4;34;40mX VENCEU\033[m")
+            print("\n\n------ FIM DE JOGO ------\n\n")
+            exit()
         elif a == 'O' and e == 'O' and i == 'O':
             print("\n\t\033[4;33;40mO VENCEU\033[m")
             print("\n\n------ FIM DE JOGO ------\n\n")
@@ -72,9 +76,13 @@ def verVencerdor(str):
             print("\n\t\033[4;33;40mO VENCEU\033[m")
             print("\n\n------ FIM DE JOGO ------\n\n")
             exit()
+        elif b == 'O' and e == 'O' and h == 'O':
+            print("\n\t\033[4;33;40mO VENCEU\033[m")
+            print("\n\n------ FIM DE JOGO ------\n\n")
+            exit()
 
 while contador < 10 and num != 0:
-    jogoDaVelha = print(f"\n_{a}_|_{b}_|_{c}_\n_{d}_|_{e}_|_{f}_\n {g} | {h} | {i} ")
+    jogoDaVelha = print(f"\n_{a}_|_{b}_|_{c}_\n_{d}_|_{e}_|_{f}_\n {g} | {h} | {i} \n\nCaso queira sair digite 0")
 
     verVencerdor(jogoDaVelha)
     
