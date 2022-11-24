@@ -5,7 +5,7 @@ os.system("cls")
 
 frase = "hello world"
 
-alphabet = list(" abcdefghijklmnopqrstuvwxyz")
+alphabet = list("abcdefghijklmnopqrstuvwxyz ")
 
 word = ""
 
