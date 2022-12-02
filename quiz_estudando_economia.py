@@ -245,7 +245,7 @@ else:
 
 pergunta = str(input("O que é a SELIC? "))
 
-if pergunta.upper() == "É A TAXA REFERENCIAL DE JUROS DA ECONOMIA BRASILEIRA":
+if pergunta.upper() == "É A TAXA REFERENCIAL DE JUROS DA ECONOMIA BRASILEIRA" or pergunta.upper() == "É A TAXA REFERENCIAL DOS JUROS DA ECONOMIA BRASILEIRA":
     print("Correta a resposta")
     sleep(1)
     os.system("cls")
@@ -481,10 +481,164 @@ else:
     sleep(1)
     os.system("cls")
 
+pergunta = str(input("Teoria macroeconômica trata-se de aspectos Ex-ante. (VERDADEIRO OU FALSO): "))
+
+if pergunta.upper() == "VERDADEIRO":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("Contabilidade Nacional ou Social tratam-se de aspectos Ex-post. (VERDADEIRO OU FALSO): "))
+
+if pergunta.upper() == "VERDADEIRO":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("O que significa BACEN? "))
+
+if pergunta.upper() == "BANCO CENTRAL DO BRASIL":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("O que significa FMI? "))
+
+if pergunta.upper() == "FUNDO MONETÁRIO INTERNACIONAL":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("O que significa CMN? "))
+
+if pergunta.upper() == "CONSELHO MONETÁRIO NACIONAL":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("Sobre o conceito de economia julgue VERDAEIRO ou FALSO:\nEconomia é uma ciência social que estuda as necessidades humanas e a escassez de recursos buscando o equilíbrio.\nR: "))
+
+if pergunta.upper() == "VERDADEIRO":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("A economia se divide em duas partes. Quais são elas? "))
+
+if pergunta.upper() == "MACROECONOMIA E MICROECONOMIA" or pergunta.upper() == "MICROECONOMIA E MACROECONOMIA":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("Quais os agentes econômicos da MACROECONOMIA? (Formato: F, E, G e R): "))
+
+if pergunta.upper() == "FAMÍLIAS, EMPRESAS, GOVERNO E RESTO DO MUNDO":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("Quais os agentes econômicos da MICROECONOMIA? "))
+
+if pergunta.upper() == "EMPRESAS E FAMÍLIAS" or pergunta.upper() == "FAMÍLIAS E EMPRESAS":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("Custos de oportunidade é o custo que envolve desembolso monetário. Chamado também de custo explícito. (VERDADEIRO OU FALSO): "))
+
+if pergunta.upper() == "FALSO":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
+pergunta = str(input("Custos contábeis é o custo que não envolve desembolso monetário. Chamado também de custo implícito. (VERDADEIRO OU FALSO): "))
+
+if pergunta.upper() == "FALSO":
+    print("Correta a resposta")
+    sleep(1)
+    os.system("cls")
+    pontuacao += 1
+elif pergunta.upper() == 'SAIR':
+    exit()
+else:
+    print("Resposta incorreta")
+    sleep(1)
+    os.system("cls")
+
 print("Processando pontuação...")
 sleep(5)
 os.system("cls")
-porcentagem = (pontuacao / 34) * 100
+porcentagem = (pontuacao / 45) * 100
 porcentagem = float("{:.2f}".format(porcentagem))
 
-print(f"Você acertou {porcentagem}% das perguntas ({pontuacao} de 34 perguntas)\nPontuação: {pontuacao} pontos\n")
+print(f"Você acertou {porcentagem}% das perguntas ({pontuacao} de 45 perguntas)\nPontuação: {pontuacao} pontos\n")
