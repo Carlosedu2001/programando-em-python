@@ -103,7 +103,7 @@ else:
     sleep(1)
     os.system("cls")
 
-pergunta = str(input("A moeda atualmente tem lastro em ouro , sua aceitação é através de “curso forçado”. (VERDADEIRO OU FALSO): "))
+pergunta = str(input("A moeda atualmente tem lastro em ouro, sua aceitação é através de “curso forçado”. (VERDADEIRO OU FALSO): "))
 
 if pergunta.upper() == "FALSO":
     print("Correta a resposta")
@@ -551,7 +551,7 @@ else:
     sleep(1)
     os.system("cls")
 
-pergunta = str(input("Sobre o conceito de economia julgue VERDAEIRO ou FALSO:\nEconomia é uma ciência social que estuda as necessidades humanas e a escassez de recursos buscando o equilíbrio.\nR: "))
+pergunta = str(input("Sobre o conceito de economia julgue VERDADEIRO ou FALSO:\nEconomia é uma ciência social que estuda as necessidades humanas e a escassez de recursos buscando o equilíbrio.\nR: "))
 
 if pergunta.upper() == "VERDADEIRO":
     print("Correta a resposta")
