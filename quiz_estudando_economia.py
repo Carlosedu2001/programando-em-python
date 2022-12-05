@@ -1,5 +1,6 @@
 import os
 from time import sleep
+from msvcrt import getch
 
 os.system("cls")
 
@@ -642,3 +643,5 @@ porcentagem = (pontuacao / 45) * 100
 porcentagem = float("{:.2f}".format(porcentagem))
 
 print(f"Você acertou {porcentagem}% das perguntas ({pontuacao} de 45 perguntas)\nPontuação: {pontuacao} pontos\n")
+
+getch()

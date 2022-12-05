@@ -1,5 +1,6 @@
 import os
 from time import sleep
+from msvcrt import getch
 
 os.system("cls")
 
@@ -7,7 +8,7 @@ pontuacao = 0
 
 pergunta = str(input("Indique quais os fatores que podem afetar a quantidade demandada de um bem, além do preço desse bem? (Formato: R, H, P): "))
 
-if pergunta.upper() == "RENDA DOS CONSUMIDORES, HÁBITOS E PREFERÊNCIAS DOS CONSUMIDORES, PREÇO DE OUTROS BENS E SERVIÇOS CORRELACIONADOS":
+if pergunta.upper() == "RENDA DOS CONSUMIDORES, HÁBITOS E PREFERÊNCIAS DOS CONSUMIDORES, PREÇO DE OUTROS BENS E SERVIÇOS CORRELACIONADOS" or pergunta.upper() == "RENDA DO CONSUMIDOR, HÁBITOS E PREFERÊNCIAS DO CONSUMIDOR, PREÇO DE OUTROS BENS E SERVIÇOS CORRELACIONADOS":
     print("Correta a resposta")
     sleep(1)
     os.system("cls")
@@ -432,3 +433,5 @@ porcentagem = (pontuacao / 30) * 100
 porcentagem = float("{:.2f}".format(porcentagem))
 
 print(f"Você acertou {porcentagem}% das perguntas ({pontuacao} de 30 perguntas)\nPontuação: {pontuacao} pontos\n")
+
+getch()
