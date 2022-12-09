@@ -1,4 +1,4 @@
-import os, json, requests
+import os, requests
 
 os.system("cls")
 
