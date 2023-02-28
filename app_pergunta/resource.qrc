@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="images">
+    <file>tom_cruise_smiling.png</file>
+  </qresource>
+</RCC>
